@@ -1,0 +1,149 @@
+body {
+	background-color: teal;
+	/* background-image: url(creativebackground.jpg);
+	background-repeat: no-repeat; */
+}
+
+h1 {
+	font-family: Montserrant-black;
+	font-size: 3rem;
+	line-height: 1.5;
+
+}
+
+.article {
+	width: 70%;
+	height: 70%;
+	margin: auto;
+}
+
+.section-article {
+	background-color: #23ABDF;
+	width: 900px;
+	margin: auto;
+}
+
+.heading3 {
+	text-align: center;
+	padding: 5% 0;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	text-align: justify;
+	font-size: 1.1rem;
+	color: #021B50;
+}
+
+.heading2 {
+	text-align: center;
+	padding: 5% 0;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.button {
+	display: block;
+	margin: 4% 0% 4%;
+	width: 100%;
+	color: #021B50;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.button:hover{
+	border-color: lightsalmon;
+	color: blue;
+	background-color: #23ABDF;
+}
+
+.check-box {
+	display: block;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: 10%;
+	top: 20px;
+}
+
+.paragraph2 {
+	font-size: 1.3rem;
+	text-align: justify;
+	position: relative;
+	left: 30%;
+}
+
+#landingPage {
+	color: #fff;
+	background-color: #021B50;
+}
+
+.logo {
+	width: 90px;
+	height: 70px;
+}
+
+.logo-create {
+	width: 100px;
+	height: 70pxpx;
+
+}
+
+.image {
+	width: 200px;
+	height: 400px;
+	position: relative;
+	left: 10%;
+	bottom: 10%;
+	transform: rotate(20deg);
+}
+
+/* .container-fluid {
+	padding: 3% 15%;
+	padding-top: 0;
+	margin-top: 0;
+
+} */
+
+.row {
+	padding: 0 5% 5%;
+	margin: auto;
+}
+
+.btn {
+	margin-left: 2%;
+}
+
+/* navigation page */
+.nav-bar {
+	padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 5.5rem;
+	font-weight: bold;
+}
+
+#Views{
+	width: 40%;
+	height: 40%;
+	margin: auto;
+	position: relative;
+	left: 30%;
+	bottom: 30px;
+}
+#Views:hover {
+	background-color: lightblue;
+}
+.submit-container{
+	position: relative;
+	left: 46%;
+	bottom: 20px;
+	width: 10%;
+}
+.submit{
+	margin: auto;
+}
