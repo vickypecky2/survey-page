@@ -4,12 +4,52 @@ body {
 	background-repeat: no-repeat; */
 }
 
-h1 {
-	font-family: Montserrant-black;
-	font-size: 3rem;
-	line-height: 1.5;
+/* body syntax refuse to be ride, so i use a n id */
+#surveyPage {
+	color: #fff;
+	background-color: #021B50;
+}
+
+/* navigation page */
+.nav-bar {
+	padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 5.5rem;
+	font-weight: bold;
+}
+
+.logo {
+	width: 90px;
+	height: 70px;
+}
+
+.logo-create {
+	width: 100px;
+	height: 70pxpx;
 
 }
+
+.image {
+	width: 200px;
+	height: 400px;
+	position: relative;
+	left: 10%;
+	bottom: 10%;
+	transform: rotate(20deg);
+}
+
+.section-article {
+	background-color: #23ABDF;
+	width: 70%;
+	max-width: 992px;
+	margin: auto;
+	font-family: Montserrant-black;
+	line-height: 1.5;
+}
+
 
 .article {
 	width: 70%;
@@ -17,11 +57,6 @@ h1 {
 	margin: auto;
 }
 
-.section-article {
-	background-color: #23ABDF;
-	width: 900px;
-	margin: auto;
-}
 
 .heading3 {
 	text-align: center;
@@ -47,12 +82,13 @@ h1 {
 	display: block;
 	margin: 4% 0% 4%;
 	width: 100%;
+	max-width: 500px;
 	color: #021B50;
 	cursor: pointer;
 	font-weight: bold;
 }
 
-.button:hover{
+.button:hover {
 	border-color: lightsalmon;
 	color: blue;
 	background-color: #23ABDF;
@@ -71,63 +107,59 @@ h1 {
 .paragraph2 {
 	font-size: 1.3rem;
 	text-align: justify;
+	width: 70%;
 	position: relative;
 	left: 30%;
-}
-
-#landingPage {
-	color: #fff;
-	background-color: #021B50;
-}
-
-.logo {
-	width: 90px;
-	height: 70px;
-}
-
-.logo-create {
-	width: 100px;
-	height: 70pxpx;
 
 }
 
-.image {
-	width: 200px;
-	height: 400px;
-	position: relative;
-	left: 10%;
-	bottom: 10%;
-	transform: rotate(20deg);
+@media screen and (max-width: 600px) {
+	.section-article {
+		margin: auto;
+		font-size: 1.3rem;
+	}
+
+	/* .paragraph2 {
+		font-size: 1rem;
+		text-align:justify;
+		width: 20%;
+		position: relative;
+		left: 30%;	
+	} */
+	.button {
+		display: inline;
+		margin: 4% 0% 4%;
+		max-width: 500px;
+		color: #021B50;
+		cursor: pointer;
+		font-weight: bold;
+	}
+
+	#Views {
+		width: 50%;
+		height: 30%;
+		margin: auto;
+		margin-bottom: 15%;
+		position: relative;
+		left: 30%;
+		bottom: 30px;
+
+	}
+
 }
 
-/* .container-fluid {
-	padding: 3% 15%;
-	padding-top: 0;
-	margin-top: 0;
-
-} */
+.view-text {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 
 .row {
 	padding: 0 5% 5%;
 	margin: auto;
 }
 
-.btn {
-	margin-left: 2%;
-}
 
-/* navigation page */
-.nav-bar {
-	padding-bottom: 5.5rem;
-}
-
-.navbar-brand {
-	font-family: Ubuntu;
-	font-size: 5.5rem;
-	font-weight: bold;
-}
-
-#Views{
+#textViews {
 	width: 40%;
 	height: 40%;
 	margin: auto;
@@ -135,15 +167,28 @@ h1 {
 	left: 30%;
 	bottom: 30px;
 }
-#Views:hover {
+
+#textViews:hover {
 	background-color: lightblue;
 }
-.submit-container{
+
+.submit-container {
 	position: relative;
 	left: 46%;
 	bottom: 20px;
 	width: 10%;
 }
-.submit{
+
+.submit {
 	margin: auto;
 }
+
+
+
+
+/* .container-fluid {
+	padding: 3% 15%;
+	padding-top: 0;
+	margin-top: 0;
+
+} */
